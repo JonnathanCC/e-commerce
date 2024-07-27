@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/navbar-footer.css">
+
+    </head>
+    <body style="margin-top: 80px">
+        <main>
+            <h2>Iniciar Sesión</h2>
+            <form action="database/procesar_login.php" method="POST">
+                <label for="correo_electronico">Correo Electrónico:</label>
+                <input type="email" id="correo_electronico" name="correo_electronico" required>
+                <br>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <br>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </main>
+    </body>
+</html>
